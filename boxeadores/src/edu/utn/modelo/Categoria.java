@@ -23,10 +23,10 @@ public enum Categoria {
 	public static void clasifica(double peso, Boxeador b)
 	{
 		
-		if(peso>=48.988 && peso <= 52.162)
+		//if(peso>=48.988 && peso <= 52.162)
+		if(peso>=0 && peso <= 52.162)
 		{
 			b.setCat(MOSCA);
-			System.out.println("mosca");
 		}
 		
 	

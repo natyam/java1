@@ -25,15 +25,26 @@ public class Boxeador {
 		this.cat = cat;
 	}
 	
-	/*public void mostrar(Boxeador[] b) {
+	
+	
+	//revisar esta
+	@Override
+	public String toString() {
+		
+		return nombre;
+	}
+	
+	
+
+
+			
+
+}
+/*public void mostrar(Boxeador[] b) {
 		for (Boxeador boxeador : b) {
 			System.out.println(boxeador.getNombre());
 		}
 		
 		return;
 	} */
-
-
-			
-
-}
+	
